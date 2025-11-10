@@ -1,0 +1,148 @@
+Loading nemo/2.4.0
+  Loading requirement: gcc/11.4.1 cuda/12.8.0 nccl/2.27.3-1-cuda
+    cudnn/9.10.2.21-12-cuda openmpi/4.1.6-cuda intel-oneapi-mkl/2024.1
+    magma/2.9.0-cuda sox/14.4.2 ffmpeg/6.1.1-cuda hdf5/1.12.0-mpi-cuda
+    libjpeg-turbo/2.1.3
++ srun python -u nemo_test.py
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 107
+    tokenizer='data',
+    ^^^^^^^^^^^^^^^^
+SyntaxError: keyword argument repeated: tokenizer
+srun: error: jzxh003: tasks 0-3: Exited with exit code 1
+srun: Terminating StepId=1560989.0
+srun: error: jzxh091: tasks 4-7: Exited with exit code 1
+srun: error: jzxh092: tasks 8-11: Exited with exit code 1
+srun: error: jzxh122: tasks 12-15: Exited with exit code 1
+srun: error: jzxh160: tasks 24-27: Exited with exit code 1
+srun: error: jzxh161: tasks 28-31: Exited with exit code 1
+srun: error: jzxh159: tasks 20-23: Exited with exit code 1
+srun: error: jzxh123: tasks 16-19: Exited with exit code 1
+
+real	0m3.552s
+user	0m0.013s
+sys	0m0.010s
++ date

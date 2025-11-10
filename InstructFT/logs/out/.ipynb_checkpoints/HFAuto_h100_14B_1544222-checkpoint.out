@@ -1,0 +1,200 @@
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 15:26:27 nemo_logging:393] use_linear_ce_loss: False
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 15:26:27 nemo_logging:393] Using default TP plan for parallelization. It is compatible with huggingface llama3-style models.
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 15:26:27 nemo_logging:393] Using passed HF dataset Dataset({
+        features: ['id', 'messages', 'source'],
+        num_rows: 939343
+    })
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 15:26:27 nemo_logging:393] Experiments will be logged at /tmp/tmpt7haqfqd/nemo2_finetune
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[warn] tp_size>1 with HFAutoModel: enabling --use-hf-tp-plan
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 15:26:35 nemo_logging:393] Configuring model with attn_implementation: flash_attention_2

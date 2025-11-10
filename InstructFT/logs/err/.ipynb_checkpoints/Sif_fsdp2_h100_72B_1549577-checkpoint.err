@@ -1,0 +1,105 @@
++ srun singularity exec --nv /lustre/fsn1/singularity/images/ssos040/nemo2506_amd.sif fsdp2.py --test --model Qwen/Qwen2.5-72B-Instruct --fsdp-checkpointing 7/8 --bsz 2 --grad-acc 1 --compile
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh003: task 3: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: Terminating StepId=1549577.0
+FATAL:   "fsdp2.py": executable file not found in $PATH
+slurmstepd: error: *** STEP 1549577.0 ON jzxh003 CANCELLED AT 2025-11-10T00:47:54 ***
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh357: tasks 60,62-63: Exited with exit code 255
+srun: error: jzxh126: tasks 24,26-27: Exited with exit code 255
+srun: error: jzxh123: tasks 16-17,19: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh003: tasks 0-1: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh337: tasks 52,54-55: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh122: tasks 13-15: Exited with exit code 255
+srun: error: jzxh161: tasks 44,46-47: Exited with exit code 255
+srun: error: jzxh160: tasks 40,42-43: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh159: tasks 36,38-39: Exited with exit code 255
+srun: error: jzxh139: tasks 28,30-31: Exited with exit code 255
+srun: error: jzxh356: tasks 57-59: Exited with exit code 255
+srun: error: jzxh125: tasks 21-23: Exited with exit code 255
+srun: error: jzxh336: tasks 48-49,51: Exited with exit code 255
+srun: error: jzxh092: tasks 9-11: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh126: task 25: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh003: task 2: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh123: task 18: Exited with exit code 255
+srun: error: jzxh337: task 53: Exited with exit code 255
+srun: error: jzxh357: task 61: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh161: task 45: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh160: task 41: Exited with exit code 255
+srun: error: jzxh122: task 12: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh159: task 37: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh336: task 50: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh356: task 56: Exited with exit code 255
+srun: error: jzxh139: task 29: Exited with exit code 255
+srun: error: jzxh125: task 20: Exited with exit code 255
+srun: error: jzxh092: task 8: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh091: tasks 5-7: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh140: tasks 32-33,35: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh091: task 4: Exited with exit code 255
+FATAL:   "fsdp2.py": executable file not found in $PATH
+srun: error: jzxh140: task 34: Exited with exit code 255
+
+real	0m15.599s
+user	0m0.018s
+sys	0m0.014s
++ date

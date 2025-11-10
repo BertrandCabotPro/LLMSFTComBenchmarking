@@ -1,0 +1,697 @@
+Loading nemo/2.4.0
+  Loading requirement: gcc/11.4.1 cuda/12.8.0 nccl/2.27.3-1-cuda
+    cudnn/9.10.2.21-12-cuda openmpi/4.1.6-cuda intel-oneapi-mkl/2024.1
+    magma/2.9.0-cuda sox/14.4.2 ffmpeg/6.1.1-cuda hdf5/1.12.0-mpi-cuda
+    libjpeg-turbo/2.1.3
++ srun python -u nemo_megatron.py --model Qwen/Qwen2.5-14B-Instruct --devices 4 --num-nodes 16 --tp-size 4 --pp-size 4 --accumulate-grad-batches 8 --global-batch-size 128
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[NeMo W 2025-11-10 12:23:05 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lhotse/recipes/iwslt22_ta.py:323: SyntaxWarning: invalid escape sequence '\s'
+      text = re.sub("\s+", " ", text)
+    
+[NeMo W 2025-11-10 12:23:05 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lhotse/recipes/iwslt22_ta.py:324: SyntaxWarning: invalid escape sequence '\s'
+      text = re.sub("\s+\.\s+", ".", text)
+    
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+[NeMo W 2025-11-10 12:23:26 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/__init__.py:44: SyntaxWarning: invalid escape sequence '\.'
+      re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+    
+[NeMo W 2025-11-10 12:23:26 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/__init__.py:46: SyntaxWarning: invalid escape sequence '\s'
+      re_skip_default = re.compile("(\r\n|\s)", re.U)
+    
+[NeMo W 2025-11-10 12:23:26 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/finalseg/__init__.py:78: SyntaxWarning: invalid escape sequence '\.'
+      re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+    
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+[NeMo W 2025-11-10 12:23:28 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\('
+      m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+    
+[NeMo W 2025-11-10 12:23:28 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\('
+      m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+    
+[NeMo W 2025-11-10 12:23:28 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\('
+      elif re.match('(flt)p?( \(default\))?$', token):
+    
+[NeMo W 2025-11-10 12:23:28 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\('
+      elif re.match('(dbl)p?( \(default\))?$', token):
+    
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+Traceback (most recent call last):
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 224, in <module>
+    main()
+  File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_megatron.py", line 170, in main
+    setattr(dataset, "global_batch_size", int(GBS))
+                                              ^^^
+NameError: name 'GBS' is not defined
+srun: error: jzxh356: tasks 56-57,59: Exited with exit code 1
+srun: Terminating StepId=1556106.0
+slurmstepd: error: *** STEP 1556106.0 ON jzxh003 CANCELLED AT 2025-11-10T12:23:31 ***
+srun: error: jzxh356: task 58: Terminated
+srun: error: jzxh161: tasks 44-47: Terminated
+srun: error: jzxh123: tasks 16-19: Terminated
+srun: error: jzxh160: tasks 40-43: Terminated
+srun: error: jzxh003: tasks 0-3: Terminated
+srun: error: jzxh091: tasks 4-7: Terminated
+srun: error: jzxh337: tasks 52-55: Terminated
+srun: error: jzxh126: tasks 24-27: Terminated
+srun: error: jzxh122: tasks 12-15: Terminated
+srun: error: jzxh357: tasks 60-63: Terminated
+srun: error: jzxh125: tasks 20-23: Terminated
+srun: error: jzxh092: tasks 8-11: Terminated
+srun: error: jzxh139: tasks 28-31: Terminated
+srun: error: jzxh159: tasks 36-39: Terminated
+srun: error: jzxh140: tasks 32-35: Terminated
+srun: error: jzxh336: tasks 48-51: Terminated
+srun: Force Terminated StepId=1556106.0
+
+real	0m38.714s
+user	0m0.016s
+sys	0m0.025s
++ date

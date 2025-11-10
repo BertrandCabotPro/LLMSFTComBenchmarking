@@ -1,0 +1,194 @@
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[NeMo I 2025-11-09 22:08:43 nemo_logging:393] Using passed HF dataset Dataset({
+        features: ['id', 'messages', 'source'],
+        num_rows: 939343
+    })
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[NeMo I 2025-11-09 22:08:44 nemo_logging:393] use_linear_ce_loss: False
+[padding guard] tok= left
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+[padding guard] tok= left
+HFAutoModelForCausalLM()
+Sun Nov  9 22:08:47 CET 2025

@@ -1,0 +1,138 @@
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Accumulate grad batches: 4
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 17:05:22 nemo_logging:393] Using passed HF dataset Dataset({
+        features: ['id', 'messages', 'source'],
+        num_rows: 939343
+    })
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 17:05:23 nemo_logging:393] use_linear_ce_loss: False
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 17:05:23 nemo_logging:393] Using default TP plan for parallelization. It is compatible with huggingface llama3-style models.
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 17:05:23 nemo_logging:393] Experiments will be logged at /tmp/tmpzusawe26/nemo2_finetune
+[NeMo I 2025-11-09 17:05:29 nemo_logging:393] Configuring model with attn_implementation: flash_attention_2
+Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/29355 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/29355 [00:00<?, ?it/s] Epoch 0:   0%|          | 0/29355 [00:02<?, ?it/s]
+Sun Nov  9 17:06:13 CET 2025

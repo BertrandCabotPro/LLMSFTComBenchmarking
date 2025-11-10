@@ -1,0 +1,1810 @@
+Loading nemo/2.4.0
+  Loading requirement: gcc/11.4.1 cuda/12.8.0 nccl/2.27.3-1-cuda
+    cudnn/9.10.2.21-12-cuda openmpi/4.1.6-cuda intel-oneapi-mkl/2024.1
+    magma/2.9.0-cuda sox/14.4.2 ffmpeg/6.1.1-cuda hdf5/1.12.0-mpi-cuda
+    libjpeg-turbo/2.1.3
++ srun python -u nemo_test.py
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[NeMo W 2025-11-10 15:40:30 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lhotse/recipes/iwslt22_ta.py:323: SyntaxWarning: invalid escape sequence '\s'
+      text = re.sub("\s+", " ", text)
+    
+[NeMo W 2025-11-10 15:40:30 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lhotse/recipes/iwslt22_ta.py:324: SyntaxWarning: invalid escape sequence '\s'
+      text = re.sub("\s+\.\s+", ".", text)
+    
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+Supported flash-attn versions are >= 2.1.1, <= 2.8.1. Found flash-attn 2.8.3.
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+WARNING[XFORMERS]: xFormers can't load C++/CUDA extensions. xFormers was built for:
+    PyTorch 2.7.0+cu126 with CUDA 1206 (you have 2.8.0)
+    Python  3.12.10 (you have 3.12.10)
+  Please reinstall xformers (see https://github.com/facebookresearch/xformers#installing-xformers)
+  Memory-efficient attention, SwiGLU, sparse and more won't be available.
+  Set XFORMERS_MORE_DETAILS=1 for more details
+[NeMo W 2025-11-10 15:40:52 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/__init__.py:44: SyntaxWarning: invalid escape sequence '\.'
+      re_han_default = re.compile("([\u4E00-\u9FD5a-zA-Z0-9+#&\._%\-]+)", re.U)
+    
+[NeMo W 2025-11-10 15:40:52 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/__init__.py:46: SyntaxWarning: invalid escape sequence '\s'
+      re_skip_default = re.compile("(\r\n|\s)", re.U)
+    
+[NeMo W 2025-11-10 15:40:52 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/jieba/finalseg/__init__.py:78: SyntaxWarning: invalid escape sequence '\.'
+      re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
+    
+[NeMo W 2025-11-10 15:40:54 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:300: SyntaxWarning: invalid escape sequence '\('
+      m = re.match('([su]([0-9]{1,2})p?) \(([0-9]{1,2}) bit\)$', token)
+    
+[NeMo W 2025-11-10 15:40:54 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:301: SyntaxWarning: invalid escape sequence '\('
+      m2 = re.match('([su]([0-9]{1,2})p?)( \(default\))?$', token)
+    
+[NeMo W 2025-11-10 15:40:54 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:310: SyntaxWarning: invalid escape sequence '\('
+      elif re.match('(flt)p?( \(default\))?$', token):
+    
+[NeMo W 2025-11-10 15:40:54 nemo_logging:405] /lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/pydub/utils.py:314: SyntaxWarning: invalid escape sequence '\('
+      elif re.match('(dbl)p?( \(default\))?$', token):
+    
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+[NeMo W 2025-11-10 15:40:57 nemo_logging:405] "update_logger_directory" is True. Overwriting tensorboard logger "save_dir" to test_logdir
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 32 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+[NeMo W 2025-11-10 15:41:02 nemo_logging:405] Could not copy Trainer's 'max_steps' to LR scheduler's 'max_steps'. If you are not using an LR scheduler, this warning can safely be ignored.
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+
+  | Name   | Type | Params | Mode 
+----------------------------------------
+0 | module | DDP  | 1.8 B  | train
+----------------------------------------
+1.8 B     Trainable params
+0         Non-trainable params
+1.8 B     Total params
+7,385.752 Total estimated model params size (MB)
+489       Modules in train mode
+0         Modules in eval mode
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+SLURM auto-requeueing enabled. Setting signal handlers.
+[rank20]: Traceback (most recent call last):
+[rank20]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank20]:     llm.train(
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank20]:     trainer.fit(model, data)
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank20]:     call._call_and_handle_interrupt(
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank20]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank20]:     return function(*args, **kwargs)
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank20]:     self._run(model, ckpt_path=ckpt_path)
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank20]:     results = self._run_stage()
+[rank20]:               ^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank20]:     self.fit_loop.run()
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank20]:     self.on_run_start()
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank20]:     self.epoch_loop.val_loop.setup_data()
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank20]:     dataloaders = _request_dataloader(source)
+[rank20]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank20]:     return data_source.dataloader()
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank20]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank20]:     return fn(*args, **kwargs)
+[rank20]:            ^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank20]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank20]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank20]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank20]:     assert dataset is not None
+[rank20]:            ^^^^^^^^^^^^^^^^^^^
+[rank20]: AssertionError
+[rank8]: Traceback (most recent call last):
+[rank8]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank8]:     llm.train(
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank8]:     trainer.fit(model, data)
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank8]:     call._call_and_handle_interrupt(
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank8]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank8]:     return function(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank8]:     self._run(model, ckpt_path=ckpt_path)
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank8]:     results = self._run_stage()
+[rank8]:               ^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank8]:     self.fit_loop.run()
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank8]:     self.on_run_start()
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank8]:     self.epoch_loop.val_loop.setup_data()
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank8]:     dataloaders = _request_dataloader(source)
+[rank8]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank8]:     return data_source.dataloader()
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank8]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank8]:     return fn(*args, **kwargs)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank8]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank8]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank8]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank8]:     assert dataset is not None
+[rank8]:            ^^^^^^^^^^^^^^^^^^^
+[rank8]: AssertionError
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank0]:     llm.train(
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank0]:     trainer.fit(model, data)
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank0]:     call._call_and_handle_interrupt(
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank0]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank0]:     return function(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank0]:     self._run(model, ckpt_path=ckpt_path)
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank0]:     results = self._run_stage()
+[rank0]:               ^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank0]:     self.fit_loop.run()
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank0]:     self.on_run_start()
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank0]:     self.epoch_loop.val_loop.setup_data()
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank0]:     dataloaders = _request_dataloader(source)
+[rank0]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank0]:     return data_source.dataloader()
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank0]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank0]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank0]:     assert dataset is not None
+[rank0]:            ^^^^^^^^^^^^^^^^^^^
+[rank0]: AssertionError
+[rank16]: Traceback (most recent call last):
+[rank16]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank16]:     llm.train(
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank16]:     trainer.fit(model, data)
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank16]:     call._call_and_handle_interrupt(
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank16]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank16]:     return function(*args, **kwargs)
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank16]:     self._run(model, ckpt_path=ckpt_path)
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank16]:     results = self._run_stage()
+[rank16]:               ^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank16]:     self.fit_loop.run()
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank16]:     self.on_run_start()
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank16]:     self.epoch_loop.val_loop.setup_data()
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank16]:     dataloaders = _request_dataloader(source)
+[rank16]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank16]:     return data_source.dataloader()
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank16]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank16]:     return fn(*args, **kwargs)
+[rank16]:            ^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank16]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank16]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank16]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank16]:     assert dataset is not None
+[rank16]:            ^^^^^^^^^^^^^^^^^^^
+[rank16]: AssertionError
+[rank12]: Traceback (most recent call last):
+[rank12]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank12]:     llm.train(
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank12]:     trainer.fit(model, data)
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank12]:     call._call_and_handle_interrupt(
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank12]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank12]:     return function(*args, **kwargs)
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank12]:     self._run(model, ckpt_path=ckpt_path)
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank12]:     results = self._run_stage()
+[rank12]:               ^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank12]:     self.fit_loop.run()
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank12]:     self.on_run_start()
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank12]:     self.epoch_loop.val_loop.setup_data()
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank12]:     dataloaders = _request_dataloader(source)
+[rank12]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank12]:     return data_source.dataloader()
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank12]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank12]:     return fn(*args, **kwargs)
+[rank12]:            ^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank12]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank12]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank12]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank12]:     assert dataset is not None
+[rank12]:            ^^^^^^^^^^^^^^^^^^^
+[rank12]: AssertionError
+[rank17]: Traceback (most recent call last):
+[rank17]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank17]:     llm.train(
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank17]:     trainer.fit(model, data)
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank17]:     call._call_and_handle_interrupt(
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank17]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank17]:     return function(*args, **kwargs)
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank17]:     self._run(model, ckpt_path=ckpt_path)
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank17]:     results = self._run_stage()
+[rank17]:               ^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank17]:     self.fit_loop.run()
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank17]:     self.on_run_start()
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank17]:     self.epoch_loop.val_loop.setup_data()
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank17]:     dataloaders = _request_dataloader(source)
+[rank17]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank17]:     return data_source.dataloader()
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank17]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank17]:     return fn(*args, **kwargs)
+[rank17]:            ^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank17]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank17]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank17]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank17]:     assert dataset is not None
+[rank17]:            ^^^^^^^^^^^^^^^^^^^
+[rank17]: AssertionError
+[rank9]: Traceback (most recent call last):
+[rank9]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank9]:     llm.train(
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank9]:     trainer.fit(model, data)
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank9]:     call._call_and_handle_interrupt(
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank9]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank9]:     return function(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank9]:     self._run(model, ckpt_path=ckpt_path)
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank9]:     results = self._run_stage()
+[rank9]:               ^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank9]:     self.fit_loop.run()
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank9]:     self.on_run_start()
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank9]:     self.epoch_loop.val_loop.setup_data()
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank9]:     dataloaders = _request_dataloader(source)
+[rank9]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank9]:     return data_source.dataloader()
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank9]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank9]:     return fn(*args, **kwargs)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank9]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank9]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank9]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank9]:     assert dataset is not None
+[rank9]:            ^^^^^^^^^^^^^^^^^^^
+[rank9]: AssertionError
+[rank13]: Traceback (most recent call last):
+[rank13]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank13]:     llm.train(
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank13]:     trainer.fit(model, data)
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank13]:     call._call_and_handle_interrupt(
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank13]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank13]:     return function(*args, **kwargs)
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank13]:     self._run(model, ckpt_path=ckpt_path)
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank13]:     results = self._run_stage()
+[rank13]:               ^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank13]:     self.fit_loop.run()
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank13]:     self.on_run_start()
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank13]:     self.epoch_loop.val_loop.setup_data()
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank13]:     dataloaders = _request_dataloader(source)
+[rank13]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank13]:     return data_source.dataloader()
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank13]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank13]:     return fn(*args, **kwargs)
+[rank13]:            ^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank13]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank13]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank13]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank13]:     assert dataset is not None
+[rank13]:            ^^^^^^^^^^^^^^^^^^^
+[rank13]: AssertionError
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank4]:     llm.train(
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank4]:     trainer.fit(model, data)
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank4]:     call._call_and_handle_interrupt(
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank4]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank4]:     return function(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank4]:     self._run(model, ckpt_path=ckpt_path)
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank4]:     results = self._run_stage()
+[rank4]:               ^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank4]:     self.fit_loop.run()
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank4]:     self.on_run_start()
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank4]:     self.epoch_loop.val_loop.setup_data()
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank4]:     dataloaders = _request_dataloader(source)
+[rank4]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank4]:     return data_source.dataloader()
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank4]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank4]:     return fn(*args, **kwargs)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank4]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank4]:     assert dataset is not None
+[rank4]:            ^^^^^^^^^^^^^^^^^^^
+[rank4]: AssertionError
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank3]:     llm.train(
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank3]:     trainer.fit(model, data)
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank3]:     call._call_and_handle_interrupt(
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank3]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank3]:     return function(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank3]:     self._run(model, ckpt_path=ckpt_path)
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank3]:     results = self._run_stage()
+[rank3]:               ^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank3]:     self.fit_loop.run()
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank3]:     self.on_run_start()
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank3]:     self.epoch_loop.val_loop.setup_data()
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank3]:     dataloaders = _request_dataloader(source)
+[rank3]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank3]:     return data_source.dataloader()
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank3]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank3]:     return fn(*args, **kwargs)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank3]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank3]:     assert dataset is not None
+[rank3]:            ^^^^^^^^^^^^^^^^^^^
+[rank3]: AssertionError
+[rank10]: Traceback (most recent call last):
+[rank10]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank10]:     llm.train(
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank10]:     trainer.fit(model, data)
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank10]:     call._call_and_handle_interrupt(
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank10]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank10]:     return function(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank10]:     self._run(model, ckpt_path=ckpt_path)
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank10]:     results = self._run_stage()
+[rank10]:               ^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank10]:     self.fit_loop.run()
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank10]:     self.on_run_start()
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank10]:     self.epoch_loop.val_loop.setup_data()
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank10]:     dataloaders = _request_dataloader(source)
+[rank10]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank10]:     return data_source.dataloader()
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank10]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank10]:     return fn(*args, **kwargs)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank10]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank10]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank10]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank10]:     assert dataset is not None
+[rank10]:            ^^^^^^^^^^^^^^^^^^^
+[rank10]: AssertionError
+[rank14]: Traceback (most recent call last):
+[rank14]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank14]:     llm.train(
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank14]:     trainer.fit(model, data)
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank14]:     call._call_and_handle_interrupt(
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank14]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank14]:     return function(*args, **kwargs)
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank14]:     self._run(model, ckpt_path=ckpt_path)
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank14]:     results = self._run_stage()
+[rank14]:               ^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank14]:     self.fit_loop.run()
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank14]:     self.on_run_start()
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank14]:     self.epoch_loop.val_loop.setup_data()
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank14]:     dataloaders = _request_dataloader(source)
+[rank14]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank14]:     return data_source.dataloader()
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank14]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank14]:     return fn(*args, **kwargs)
+[rank14]:            ^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank14]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank14]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank14]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank14]:     assert dataset is not None
+[rank14]:            ^^^^^^^^^^^^^^^^^^^
+[rank14]: AssertionError
+[rank15]: Traceback (most recent call last):
+[rank15]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank15]:     llm.train(
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank15]:     trainer.fit(model, data)
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank15]:     call._call_and_handle_interrupt(
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank15]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank15]:     return function(*args, **kwargs)
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank15]:     self._run(model, ckpt_path=ckpt_path)
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank15]:     results = self._run_stage()
+[rank15]:               ^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank15]:     self.fit_loop.run()
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank15]:     self.on_run_start()
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank15]:     self.epoch_loop.val_loop.setup_data()
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank15]:     dataloaders = _request_dataloader(source)
+[rank15]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank15]:     return data_source.dataloader()
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank15]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank15]:     return fn(*args, **kwargs)
+[rank15]:            ^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank15]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank15]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank15]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank15]:     assert dataset is not None
+[rank15]:            ^^^^^^^^^^^^^^^^^^^
+[rank15]: AssertionError
+[rank19]: Traceback (most recent call last):
+[rank19]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank19]:     llm.train(
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank19]:     trainer.fit(model, data)
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank19]:     call._call_and_handle_interrupt(
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank19]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank19]:     return function(*args, **kwargs)
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank19]:     self._run(model, ckpt_path=ckpt_path)
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank19]:     results = self._run_stage()
+[rank19]:               ^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank19]:     self.fit_loop.run()
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank19]:     self.on_run_start()
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank19]:     self.epoch_loop.val_loop.setup_data()
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank19]:     dataloaders = _request_dataloader(source)
+[rank19]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank19]:     return data_source.dataloader()
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank19]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank19]:     return fn(*args, **kwargs)
+[rank19]:            ^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank19]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank19]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank19]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank19]:     assert dataset is not None
+[rank19]:            ^^^^^^^^^^^^^^^^^^^
+[rank19]: AssertionError
+[rank26]: Traceback (most recent call last):
+[rank26]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank26]:     llm.train(
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank26]:     trainer.fit(model, data)
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank26]:     call._call_and_handle_interrupt(
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank26]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank26]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank26]:     return function(*args, **kwargs)
+[rank26]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank26]:     self._run(model, ckpt_path=ckpt_path)
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank26]:     results = self._run_stage()
+[rank26]:               ^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank26]:     self.fit_loop.run()
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank26]:     self.on_run_start()
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank26]:     self.epoch_loop.val_loop.setup_data()
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank26]:     dataloaders = _request_dataloader(source)
+[rank26]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank26]:     return data_source.dataloader()
+[rank26]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank26]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank26]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank26]:     return fn(*args, **kwargs)
+[rank26]:            ^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank26]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank26]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank26]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank26]:     assert dataset is not None
+[rank26]:            ^^^^^^^^^^^^^^^^^^^
+[rank26]: AssertionError
+[rank22]: Traceback (most recent call last):
+[rank22]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank22]:     llm.train(
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank22]:     trainer.fit(model, data)
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank22]:     call._call_and_handle_interrupt(
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank22]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank22]:     return function(*args, **kwargs)
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank22]:     self._run(model, ckpt_path=ckpt_path)
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank22]:     results = self._run_stage()
+[rank22]:               ^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank22]:     self.fit_loop.run()
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank22]:     self.on_run_start()
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank22]:     self.epoch_loop.val_loop.setup_data()
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank22]:     dataloaders = _request_dataloader(source)
+[rank22]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank22]:     return data_source.dataloader()
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank22]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank22]:     return fn(*args, **kwargs)
+[rank22]:            ^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank22]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank22]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank22]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank22]:     assert dataset is not None
+[rank22]:            ^^^^^^^^^^^^^^^^^^^
+[rank22]: AssertionError
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank5]:     llm.train(
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank5]:     trainer.fit(model, data)
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank5]:     call._call_and_handle_interrupt(
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank5]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank5]:     return function(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank5]:     self._run(model, ckpt_path=ckpt_path)
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank5]:     results = self._run_stage()
+[rank5]:               ^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank5]:     self.fit_loop.run()
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank5]:     self.on_run_start()
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank5]:     self.epoch_loop.val_loop.setup_data()
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank5]:     dataloaders = _request_dataloader(source)
+[rank5]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank5]:     return data_source.dataloader()
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank5]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank5]:     return fn(*args, **kwargs)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank5]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank5]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank5]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank5]:     assert dataset is not None
+[rank5]:            ^^^^^^^^^^^^^^^^^^^
+[rank5]: AssertionError
+[rank31]: Traceback (most recent call last):
+[rank31]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank31]:     llm.train(
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank31]:     trainer.fit(model, data)
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank31]:     call._call_and_handle_interrupt(
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank31]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank31]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank31]:     return function(*args, **kwargs)
+[rank31]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank31]:     self._run(model, ckpt_path=ckpt_path)
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank31]:     results = self._run_stage()
+[rank31]:               ^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank31]:     self.fit_loop.run()
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank31]:     self.on_run_start()
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank31]:     self.epoch_loop.val_loop.setup_data()
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank31]:     dataloaders = _request_dataloader(source)
+[rank31]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank31]:     return data_source.dataloader()
+[rank31]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank31]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank31]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank31]:     return fn(*args, **kwargs)
+[rank31]:            ^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank31]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank31]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank31]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank31]:     assert dataset is not None
+[rank31]:            ^^^^^^^^^^^^^^^^^^^
+[rank31]: AssertionError
+[rank21]: Traceback (most recent call last):
+[rank21]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank21]:     llm.train(
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank21]:     trainer.fit(model, data)
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank21]:     call._call_and_handle_interrupt(
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank21]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank21]:     return function(*args, **kwargs)
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank21]:     self._run(model, ckpt_path=ckpt_path)
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank21]:     results = self._run_stage()
+[rank21]:               ^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank21]:     self.fit_loop.run()
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank21]:     self.on_run_start()
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank21]:     self.epoch_loop.val_loop.setup_data()
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank21]:     dataloaders = _request_dataloader(source)
+[rank21]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank21]:     return data_source.dataloader()
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank21]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank21]:     return fn(*args, **kwargs)
+[rank21]:            ^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank21]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank21]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank21]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank21]:     assert dataset is not None
+[rank21]:            ^^^^^^^^^^^^^^^^^^^
+[rank21]: AssertionError
+[rank24]: Traceback (most recent call last):
+[rank24]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank24]:     llm.train(
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank24]:     trainer.fit(model, data)
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank24]:     call._call_and_handle_interrupt(
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank24]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank24]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank24]:     return function(*args, **kwargs)
+[rank24]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank24]:     self._run(model, ckpt_path=ckpt_path)
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank24]:     results = self._run_stage()
+[rank24]:               ^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank24]:     self.fit_loop.run()
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank24]:     self.on_run_start()
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank24]:     self.epoch_loop.val_loop.setup_data()
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank24]:     dataloaders = _request_dataloader(source)
+[rank24]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank24]:     return data_source.dataloader()
+[rank24]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank24]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank24]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank24]:     return fn(*args, **kwargs)
+[rank24]:            ^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank24]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank24]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank24]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank24]:     assert dataset is not None
+[rank24]:            ^^^^^^^^^^^^^^^^^^^
+[rank24]: AssertionError
+[rank7]: Traceback (most recent call last):
+[rank7]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank7]:     llm.train(
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank7]:     trainer.fit(model, data)
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank7]:     call._call_and_handle_interrupt(
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank7]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank7]:     return function(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank7]:     self._run(model, ckpt_path=ckpt_path)
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank7]:     results = self._run_stage()
+[rank7]:               ^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank7]:     self.fit_loop.run()
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank7]:     self.on_run_start()
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank7]:     self.epoch_loop.val_loop.setup_data()
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank7]:     dataloaders = _request_dataloader(source)
+[rank7]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank7]:     return data_source.dataloader()
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank7]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank7]:     return fn(*args, **kwargs)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank7]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank7]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank7]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank7]:     assert dataset is not None
+[rank7]:            ^^^^^^^^^^^^^^^^^^^
+[rank7]: AssertionError
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank1]:     llm.train(
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank1]:     trainer.fit(model, data)
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank1]:     call._call_and_handle_interrupt(
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank1]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank1]:     return function(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank1]:     self._run(model, ckpt_path=ckpt_path)
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank1]:     results = self._run_stage()
+[rank1]:               ^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank1]:     self.fit_loop.run()
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank1]:     self.on_run_start()
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank1]:     self.epoch_loop.val_loop.setup_data()
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank1]:     dataloaders = _request_dataloader(source)
+[rank1]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank1]:     return data_source.dataloader()
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank1]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank1]:     return fn(*args, **kwargs)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank1]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank1]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank1]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank1]:     assert dataset is not None
+[rank1]:            ^^^^^^^^^^^^^^^^^^^
+[rank1]: AssertionError
+[rank25]: Traceback (most recent call last):
+[rank25]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank25]:     llm.train(
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank25]:     trainer.fit(model, data)
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank25]:     call._call_and_handle_interrupt(
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank25]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank25]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank25]:     return function(*args, **kwargs)
+[rank25]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank25]:     self._run(model, ckpt_path=ckpt_path)
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank25]:     results = self._run_stage()
+[rank25]:               ^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank25]:     self.fit_loop.run()
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank25]:     self.on_run_start()
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank25]:     self.epoch_loop.val_loop.setup_data()
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank25]:     dataloaders = _request_dataloader(source)
+[rank25]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank25]:     return data_source.dataloader()
+[rank25]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank25]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank25]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank25]:     return fn(*args, **kwargs)
+[rank25]:            ^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank25]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank25]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]: Traceback (most recent call last):
+[rank23]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank23]:     llm.train(
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank23]:     trainer.fit(model, data)
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank23]:     call._call_and_handle_interrupt(
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank23]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank25]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank25]:     assert dataset is not None
+[rank25]:            ^^^^^^^^^^^^^^^^^^^
+[rank25]: AssertionError
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank23]:     return function(*args, **kwargs)
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank23]:     self._run(model, ckpt_path=ckpt_path)
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank23]:     results = self._run_stage()
+[rank23]:               ^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank23]:     self.fit_loop.run()
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank23]:     self.on_run_start()
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank23]:     self.epoch_loop.val_loop.setup_data()
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank23]:     dataloaders = _request_dataloader(source)
+[rank23]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank23]:     return data_source.dataloader()
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank23]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank23]:     return fn(*args, **kwargs)
+[rank23]:            ^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank23]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank23]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank23]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank23]:     assert dataset is not None
+[rank23]:            ^^^^^^^^^^^^^^^^^^^
+[rank23]: AssertionError
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank2]:     llm.train(
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank2]:     trainer.fit(model, data)
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank2]:     call._call_and_handle_interrupt(
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank2]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank2]:     return function(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank2]:     self._run(model, ckpt_path=ckpt_path)
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank2]:     results = self._run_stage()
+[rank2]:               ^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank2]:     self.fit_loop.run()
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank2]:     self.on_run_start()
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank2]:     self.epoch_loop.val_loop.setup_data()
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank2]:     dataloaders = _request_dataloader(source)
+[rank2]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank2]:     return data_source.dataloader()
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank2]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank2]:     return fn(*args, **kwargs)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank2]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank2]:     assert dataset is not None
+[rank2]:            ^^^^^^^^^^^^^^^^^^^
+[rank2]: AssertionError
+[rank6]: Traceback (most recent call last):
+[rank6]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank6]:     llm.train(
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank6]:     trainer.fit(model, data)
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank6]:     call._call_and_handle_interrupt(
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank6]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank6]:     return function(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank6]:     self._run(model, ckpt_path=ckpt_path)
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank6]:     results = self._run_stage()
+[rank6]:               ^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank6]:     self.fit_loop.run()
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank6]:     self.on_run_start()
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank6]:     self.epoch_loop.val_loop.setup_data()
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank6]:     dataloaders = _request_dataloader(source)
+[rank6]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank6]:     return data_source.dataloader()
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank6]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank6]:     return fn(*args, **kwargs)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank6]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank6]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank6]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank6]:     assert dataset is not None
+[rank6]:            ^^^^^^^^^^^^^^^^^^^
+[rank6]: AssertionError
+[rank18]: Traceback (most recent call last):
+[rank18]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank18]:     llm.train(
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank18]:     trainer.fit(model, data)
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank18]:     call._call_and_handle_interrupt(
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank18]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank18]:     return function(*args, **kwargs)
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank18]:     self._run(model, ckpt_path=ckpt_path)
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank18]:     results = self._run_stage()
+[rank18]:               ^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank18]:     self.fit_loop.run()
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank18]:     self.on_run_start()
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank18]:     self.epoch_loop.val_loop.setup_data()
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank18]:     dataloaders = _request_dataloader(source)
+[rank18]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank18]:     return data_source.dataloader()
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank18]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank18]:     return fn(*args, **kwargs)
+[rank18]:            ^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank18]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank18]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank18]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank18]:     assert dataset is not None
+[rank18]:            ^^^^^^^^^^^^^^^^^^^
+[rank18]: AssertionError
+[rank30]: Traceback (most recent call last):
+[rank30]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank30]:     llm.train(
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank30]:     trainer.fit(model, data)
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank30]:     call._call_and_handle_interrupt(
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank30]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank30]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank30]:     return function(*args, **kwargs)
+[rank30]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank30]:     self._run(model, ckpt_path=ckpt_path)
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank30]:     results = self._run_stage()
+[rank30]:               ^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank30]:     self.fit_loop.run()
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank30]:     self.on_run_start()
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank30]:     self.epoch_loop.val_loop.setup_data()
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank30]:     dataloaders = _request_dataloader(source)
+[rank30]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank30]:     return data_source.dataloader()
+[rank30]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank30]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank30]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank30]:     return fn(*args, **kwargs)
+[rank30]:            ^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank30]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank30]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank30]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank30]:     assert dataset is not None
+[rank30]:            ^^^^^^^^^^^^^^^^^^^
+[rank30]: AssertionError
+[rank29]: Traceback (most recent call last):
+[rank29]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank29]:     llm.train(
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank29]:     trainer.fit(model, data)
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank29]:     call._call_and_handle_interrupt(
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank29]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank29]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank29]:     return function(*args, **kwargs)
+[rank29]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank29]:     self._run(model, ckpt_path=ckpt_path)
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank29]:     results = self._run_stage()
+[rank29]:               ^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank29]:     self.fit_loop.run()
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank29]:     self.on_run_start()
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank29]:     self.epoch_loop.val_loop.setup_data()
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank29]:     dataloaders = _request_dataloader(source)
+[rank29]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank29]:     return data_source.dataloader()
+[rank29]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank29]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank29]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank29]:     return fn(*args, **kwargs)
+[rank29]:            ^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank29]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank29]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank29]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank29]:     assert dataset is not None
+[rank29]:            ^^^^^^^^^^^^^^^^^^^
+[rank29]: AssertionError
+[rank27]: Traceback (most recent call last):
+[rank27]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank27]:     llm.train(
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank27]:     trainer.fit(model, data)
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank27]:     call._call_and_handle_interrupt(
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank27]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank27]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank27]:     return function(*args, **kwargs)
+[rank27]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank27]:     self._run(model, ckpt_path=ckpt_path)
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank27]:     results = self._run_stage()
+[rank27]:               ^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank27]:     self.fit_loop.run()
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank27]:     self.on_run_start()
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank27]:     self.epoch_loop.val_loop.setup_data()
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank27]:     dataloaders = _request_dataloader(source)
+[rank27]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank27]:     return data_source.dataloader()
+[rank27]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank27]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank27]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank27]:     return fn(*args, **kwargs)
+[rank27]:            ^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank27]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank27]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank27]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank27]:     assert dataset is not None
+[rank27]:            ^^^^^^^^^^^^^^^^^^^
+[rank27]: AssertionError
+[rank11]: Traceback (most recent call last):
+[rank11]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank11]:     llm.train(
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank11]:     trainer.fit(model, data)
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank11]:     call._call_and_handle_interrupt(
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank11]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank11]:     return function(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank11]:     self._run(model, ckpt_path=ckpt_path)
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank11]:     results = self._run_stage()
+[rank11]:               ^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank11]:     self.fit_loop.run()
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank11]:     self.on_run_start()
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank11]:     self.epoch_loop.val_loop.setup_data()
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank11]:     dataloaders = _request_dataloader(source)
+[rank11]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank11]:     return data_source.dataloader()
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank11]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank11]:     return fn(*args, **kwargs)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank11]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank11]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank11]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank11]:     assert dataset is not None
+[rank11]:            ^^^^^^^^^^^^^^^^^^^
+[rank11]: AssertionError
+[rank28]: Traceback (most recent call last):
+[rank28]:   File "/lustre/fswork/projects/idris/sos/ssos040/Bench_InstructFT_Tulu3/InstructFT/nemo_test.py", line 92, in <module>
+[rank28]:     llm.train(
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/api.py", line 135, in train
+[rank28]:     trainer.fit(model, data)
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 538, in fit
+[rank28]:     call._call_and_handle_interrupt(
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 46, in _call_and_handle_interrupt
+[rank28]:     return trainer.strategy.launcher.launch(trainer_fn, *args, trainer=trainer, **kwargs)
+[rank28]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/strategies/launchers/subprocess_script.py", line 105, in launch
+[rank28]:     return function(*args, **kwargs)
+[rank28]:            ^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 574, in _fit_impl
+[rank28]:     self._run(model, ckpt_path=ckpt_path)
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 981, in _run
+[rank28]:     results = self._run_stage()
+[rank28]:               ^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/trainer.py", line 1025, in _run_stage
+[rank28]:     self.fit_loop.run()
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 201, in run
+[rank28]:     self.on_run_start()
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/fit_loop.py", line 324, in on_run_start
+[rank28]:     self.epoch_loop.val_loop.setup_data()
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/loops/evaluation_loop.py", line 166, in setup_data
+[rank28]:     dataloaders = _request_dataloader(source)
+[rank28]:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 325, in _request_dataloader
+[rank28]:     return data_source.dataloader()
+[rank28]:            ^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py", line 292, in dataloader
+[rank28]:     return call._call_lightning_datamodule_hook(self.instance.trainer, self.name)
+[rank28]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/lightning/pytorch/trainer/call.py", line 189, in _call_lightning_datamodule_hook
+[rank28]:     return fn(*args, **kwargs)
+[rank28]:            ^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 360, in val_dataloader
+[rank28]:     return self._make_dataloader(self.val, self._collate_fn)
+[rank28]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank28]:   File "/lustre/fshomisc/sup/pub/miniforge/24.11.3/envs/nemo-2.4.0+py3.12.10/lib/python3.12/site-packages/nemo/collections/llm/gpt/data/hf_dataset.py", line 324, in _make_dataloader
+[rank28]:     assert dataset is not None
+[rank28]:            ^^^^^^^^^^^^^^^^^^^
+[rank28]: AssertionError
+srun: error: jzxh161: task 28: Exited with exit code 1
+srun: Terminating StepId=1561563.0
+srun: error: jzxh160: task 24: Exited with exit code 1
+slurmstepd: error: *** STEP 1561563.0 ON jzxh003 CANCELLED AT 2025-11-10T15:41:26 ***
+srun: error: jzxh003: task 0: Exited with exit code 1
+srun: error: jzxh160: tasks 26-27: Exited with exit code 1
+srun: error: jzxh122: tasks 12-13,15: Exited with exit code 1
+srun: error: jzxh161: tasks 29,31: Exited with exit code 1
+srun: error: jzxh159: tasks 20-22: Exited with exit code 1
+srun: error: jzxh091: tasks 5-7: Exited with exit code 1
+srun: error: jzxh003: tasks 1-2: Exited with exit code 1
+srun: error: jzxh160: task 25: Exited with exit code 1
+srun: error: jzxh161: task 30: Exited with exit code 1
+srun: error: jzxh123: tasks 16-18: Terminated
+srun: error: jzxh092: tasks 9-11: Terminated
+srun: error: jzxh122: task 14: Exited with exit code 1
+srun: error: jzxh003: task 3: Exited with exit code 1
+srun: error: jzxh159: task 23: Exited with exit code 1
+srun: error: jzxh091: task 4: Exited with exit code 1
+srun: error: jzxh092: task 8: Terminated
+srun: error: jzxh123: task 19: Terminated
+srun: Force Terminated StepId=1561563.0
+
+real	1m8.828s
+user	0m0.016s
+sys	0m0.023s
++ date

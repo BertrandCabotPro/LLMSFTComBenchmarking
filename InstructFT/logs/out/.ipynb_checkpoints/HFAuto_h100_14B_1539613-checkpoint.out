@@ -1,0 +1,138 @@
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 12:03:11 nemo_logging:393] use_linear_ce_loss: False
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 12:03:11 nemo_logging:393] Using default TP plan for parallelization. It is compatible with huggingface llama3-style models.
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 12:03:11 nemo_logging:393] Using passed HF dataset Dataset({
+        features: ['id', 'messages', 'source'],
+        num_rows: 939343
+    })
+[NeMo I 2025-11-09 12:03:12 nemo_logging:393] Experiments will be logged at /tmp/tmpz_p0gbnu/nemo2_finetune
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Accumulate grad batches: 1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+Using FSDP2 with DP=16, TP=4, CP=1
+[NeMo I 2025-11-09 12:03:18 nemo_logging:393] Configuring model with attn_implementation: sdpa
+Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/7339 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/7339 [00:00<?, ?it/s] Epoch 0:   0%|          | 0/7339 [00:02<?, ?it/s]
+Sun Nov  9 12:05:36 CET 2025

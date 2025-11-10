@@ -1,0 +1,163 @@
+>>> Training on 8 nodes and 64 processes
+Pre-loop Model MaxMemory for GPU:6 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:3 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:4 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:5 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:2 7255057408 Bytes
+number of parameters: 72706203648
+Pre-loop Model MaxMemory for GPU:0 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:7 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:1 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:24 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:27 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:30 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:26 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:31 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:29 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:28 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:25 7255057408 Bytes
+global batch size: 128 - mini batch size: 2
+DATALOADER 4 False True True 3 False 
+Optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: True
+    differentiable: False
+    eps: 1e-05
+    foreach: None
+    fused: None
+    lr: 1e-05
+    maximize: False
+    weight_decay: 0.1
+)
+Pre-loop Model MaxMemory for GPU:45 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:42 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:44 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:43 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:46 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:47 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:41 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:40 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:48 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:50 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:51 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:52 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:54 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:53 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:55 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:49 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:12 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:13 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:10 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:11 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:15 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:8 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:14 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:9 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:63 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:61 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:59 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:60 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:58 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:62 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:56 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:57 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:18 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:21 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:19 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:23 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:22 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:20 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:16 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:17 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:34 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:39 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:37 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:36 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:38 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:35 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:32 7255057408 Bytes
+Pre-loop Model MaxMemory for GPU:33 7255057408 Bytes
+Step 10 / 100 | Loss: 0.461 | Perplexity: inf | LR: 6.139e-08 | Wall: 1324.7020153999329
+Step 20 / 100 | Loss: 0.457 | Perplexity: inf | LR: 1.296e-07 | Wall: 1439.412348985672
+Step 30 / 100 | Loss: 0.460 | Perplexity: inf | LR: 1.978e-07 | Wall: 1440.1827418804169
+Step 40 / 100 | Loss: 0.451 | Perplexity: inf | LR: 2.660e-07 | Wall: 1439.3542802333832
+Step 50 / 100 | Loss: 0.453 | Perplexity: inf | LR: 3.342e-07 | Wall: 1439.9356362819672
+Step 60 / 100 | Loss: 0.456 | Perplexity: inf | LR: 4.025e-07 | Wall: 1439.9697849750519
+Step 70 / 100 | Loss: 0.459 | Perplexity: inf | LR: 4.707e-07 | Wall: 1439.725205898285
+Step 80 / 100 | Loss: 0.450 | Perplexity: inf | LR: 5.389e-07 | Wall: 1440.3202815055847
+Step 90 / 100 | Loss: 0.450 | Perplexity: inf | LR: 6.071e-07 | Wall: 1439.0921084880829
+Step 100 / 100 | Loss: 0.451 | Perplexity: inf | LR: 6.753e-07 | Wall: 1440.064876794815
+>>> Training complete in: 4:00:14.529165
+>>> Training performance time: min 131.62220168113708 avg 142.631925684033 seconds (+/- 3.804173282246622)
+>>> Loading performance time: min 0.00030350685119628906 avg 0.0023781121379197246 seconds (+/- 0.0011513548304319355)
+>>> ########## BENCHMARKING #####################################
+(Measured on 100 steps) Step time Avg : 142.631925684033 s
+Estimated Training Time (2 epochs bs 128) : 581.4628170385745 h
+MaxMemory for GPU:24 65315905024 Bytes
+MaxMemory for GPU:25 65315905024 Bytes
+MaxMemory for GPU:22 65315905024 Bytes
+MaxMemory for GPU:27 65315905024 Bytes
+MaxMemory for GPU:17 65315905024 Bytes
+MaxMemory for GPU:26 65315905024 Bytes
+MaxMemory for GPU:19 65315905024 Bytes
+MaxMemory for GPU:28 65315905024 Bytes
+MaxMemory for GPU:29 65315905024 Bytes
+MaxMemory for GPU:30 65315905024 Bytes
+MaxMemory for GPU:31 65315905024 Bytes
+MaxMemory for GPU:21 65315905024 Bytes
+Max Memory Allocated 65315905024 Bytes
+MaxMemory for GPU:4 65315905024 Bytes
+MaxMemory for GPU:6 65315905024 Bytes
+MaxMemory for GPU:1 65315905024 Bytes
+MaxMemory for GPU:2 65315905024 Bytes
+MaxMemory for GPU:7 65315905024 Bytes
+MaxMemory for GPU:23 65315905024 Bytes
+MaxMemory for GPU:5 65315905024 Bytes
+MaxMemory for GPU:3 65315905024 Bytes
+MaxMemory for GPU:34 65315905024 Bytes
+MaxMemory for GPU:13 65315905024 Bytes
+MaxMemory for GPU:35 65315905024 Bytes
+MaxMemory for GPU:8 65315905024 Bytes
+MaxMemory for GPU:37 65315905024 Bytes
+MaxMemory for GPU:10 65315905024 Bytes
+MaxMemory for GPU:16 65315905024 Bytes
+MaxMemory for GPU:38 65315905024 Bytes
+MaxMemory for GPU:11 65315905024 Bytes
+MaxMemory for GPU:39 65315905024 Bytes
+MaxMemory for GPU:12 65315905024 Bytes
+MaxMemory for GPU:32 65315905024 Bytes
+MaxMemory for GPU:15 65315905024 Bytes
+MaxMemory for GPU:33 65315905024 Bytes
+MaxMemory for GPU:14 65315905024 Bytes
+MaxMemory for GPU:36 65315905024 Bytes
+MaxMemory for GPU:9 65315905024 Bytes
+MaxMemory for GPU:18 65315905024 Bytes
+MaxMemory for GPU:20 65315905024 Bytes
+MaxMemory for GPU:51 65315905024 Bytes
+MaxMemory for GPU:54 65315905024 Bytes
+MaxMemory for GPU:48 65315905024 Bytes
+MaxMemory for GPU:49 65315905024 Bytes
+MaxMemory for GPU:50 65315905024 Bytes
+MaxMemory for GPU:52 65315905024 Bytes
+MaxMemory for GPU:53 65315905024 Bytes
+MaxMemory for GPU:55 65315905024 Bytes
+MaxMemory for GPU:40 65315905024 Bytes
+MaxMemory for GPU:44 65315905024 Bytes
+MaxMemory for GPU:41 65315905024 Bytes
+MaxMemory for GPU:42 65315905024 Bytes
+MaxMemory for GPU:46 65315905024 Bytes
+MaxMemory for GPU:47 65315905024 Bytes
+MaxMemory for GPU:43 65315905024 Bytes
+MaxMemory for GPU:45 65315905024 Bytes
+MaxMemory for GPU:60 65315905024 Bytes
+MaxMemory for GPU:61 65315905024 Bytes
+MaxMemory for GPU:62 65315905024 Bytes
+MaxMemory for GPU:56 65315905024 Bytes
+MaxMemory for GPU:58 65315905024 Bytes
+MaxMemory for GPU:63 65315905024 Bytes
+MaxMemory for GPU:57 65315905024 Bytes
+MaxMemory for GPU:59 65315905024 Bytes
+Sun Nov  9 05:05:50 PM CET 2025
