@@ -1,0 +1,38 @@
+>>> Training on 32 processes
+world size: 32, GBS: 128, BSperDev: 2, sequence length: 4096, selective AC ratio: 1, grad accumulation:2
+number of parameters: 72706203648
+Pre-loop Model MaxMemory for GPU:0 8.87276554107666 GBytes
+global batch size: 64 - mini batch size: 2
+DATALOADER 4 False True True 3 False 
+Optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: True
+    differentiable: False
+    eps: 1e-05
+    foreach: None
+    fused: None
+    lr: 1e-05
+    maximize: False
+    weight_decay: 0.1
+)
+Step 10 / 100 | Loss: 0.916 | Perplexity: inf | LR: 6.135e-08 | Wall: 201.01957821846008
+Step 20 / 100 | Loss: 0.912 | Perplexity: inf | LR: 1.295e-07 | Wall: 219.83222126960754
+Step 30 / 100 | Loss: 0.924 | Perplexity: inf | LR: 1.977e-07 | Wall: 218.93661212921143
+Step 40 / 100 | Loss: 0.885 | Perplexity: inf | LR: 2.658e-07 | Wall: 217.55793476104736
+Step 50 / 100 | Loss: 0.902 | Perplexity: inf | LR: 3.340e-07 | Wall: 219.8236300945282
+Step 60 / 100 | Loss: 0.909 | Perplexity: inf | LR: 4.022e-07 | Wall: 218.40692043304443
+Step 70 / 100 | Loss: 0.919 | Perplexity: inf | LR: 4.703e-07 | Wall: 218.7467942237854
+Step 80 / 100 | Loss: 0.913 | Perplexity: inf | LR: 5.385e-07 | Wall: 220.47612166404724
+Step 90 / 100 | Loss: 0.898 | Perplexity: inf | LR: 6.067e-07 | Wall: 219.74965023994446
+Step 100 / 100 | Loss: 0.888 | Perplexity: inf | LR: 6.748e-07 | Wall: 219.4176824092865
+>>> Training complete in: 0:36:36.084724
+>>> Training performance time: min 9.03921127319336 avg 10.977310907900632 seconds (+/- 1.6458563555358463)
+>>> Loading performance time: min 0.00016069412231445312 avg 0.00038482675600291495 seconds (+/- 0.00011172064083451731)
+>>> ########## BENCHMARKING #####################################
+(Measured on 100 steps) Step time Avg : 21.954621815801264 s
+Estimated Training Time (2 epochs bs 128) : 89.50167493574983 h
+MaxMemory for GPU:0 44.312782764434814 GBytes
+Sat Nov 15 14:38:40 CET 2025

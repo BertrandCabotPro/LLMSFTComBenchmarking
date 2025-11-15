@@ -5,7 +5,7 @@ import torch
 
 def sft_tulu_tokenize_and_truncate(row: Dict[str, Any], tokenizer: PreTrainedTokenizer, max_seq_length: int):
     """taken directly from https://github.com/allenai/open-instruct/blob/ba11286e5b9eb00d4ce5b40ef4cac1389888416a/open_instruct/finetune.py#L385"""
-    #tokenizer.padding_side = "left"
+    
     messages = row["messages"]
     if len(messages) == 0:
         raise ValueError("messages field is empty.")
@@ -72,7 +72,9 @@ def sft_tulu_tokenize_and_truncate(row: Dict[str, Any], tokenizer: PreTrainedTok
 
 
 def make_sft_collate(tokenizer: PreTrainedTokenizer,  max_seq_length: int, label_pad_token_id: int = -100):
-
+    
+    max_seq_length += 1  #to take account of the switch between input_ids and label
+    
     def _apply(row):
         #tokenizer.padding_side = "left"
         return sft_tulu_tokenize_and_truncate(row, tokenizer, max_seq_length)

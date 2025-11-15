@@ -1,0 +1,38 @@
+>>> Training on 64 processes
+world size: 64, GBS: 128, BSperDev: 2, sequence length: 4096, selective AC ratio: 1/8, grad accumulation:1
+number of parameters: 14770033664
+Pre-loop Model MaxMemory for GPU:0 3.332308769226074 GBytes
+global batch size: 128 - mini batch size: 2
+DATALOADER 4 False True True 3 False 
+Optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: True
+    differentiable: False
+    eps: 1e-05
+    foreach: None
+    fused: None
+    lr: 1e-05
+    maximize: False
+    weight_decay: 0.1
+)
+Step 10 / 100 | Loss: 0.434 | Perplexity: 938449895424.000 | LR: 6.139e-08 | Wall: 26.20823645591736
+Step 20 / 100 | Loss: 0.432 | Perplexity: 908472418304.000 | LR: 1.296e-07 | Wall: 26.80373787879944
+Step 30 / 100 | Loss: 0.433 | Perplexity: 963236659200.000 | LR: 1.978e-07 | Wall: 25.898785829544067
+Step 40 / 100 | Loss: 0.426 | Perplexity: 879974285312.000 | LR: 2.660e-07 | Wall: 26.834944248199463
+Step 50 / 100 | Loss: 0.430 | Perplexity: 870907576320.000 | LR: 3.342e-07 | Wall: 26.45705556869507
+Step 60 / 100 | Loss: 0.430 | Perplexity: 854070788096.000 | LR: 4.025e-07 | Wall: 26.12414860725403
+Step 70 / 100 | Loss: 0.432 | Perplexity: 863981797376.000 | LR: 4.707e-07 | Wall: 25.97280740737915
+Step 80 / 100 | Loss: 0.428 | Perplexity: 828912435200.000 | LR: 5.389e-07 | Wall: 26.523778915405273
+Step 90 / 100 | Loss: 0.427 | Perplexity: 796974841856.000 | LR: 6.071e-07 | Wall: 26.418493032455444
+Step 100 / 100 | Loss: 0.429 | Perplexity: 781005619200.000 | LR: 6.753e-07 | Wall: 27.429317235946655
+>>> Training complete in: 0:04:26.795959
+>>> Training performance time: min 1.9799187183380127 avg 2.5843356907969772 seconds (+/- 0.2188450060927633)
+>>> Loading performance time: min 0.0001823902130126953 avg 0.0003022834508105962 seconds (+/- 7.116518877638758e-05)
+>>> ########## BENCHMARKING #####################################
+(Measured on 100 steps) Step time Avg : 2.5843356907969772 s
+Estimated Training Time (2 epochs bs 128) : 10.535475166149011 h
+MaxMemory for GPU:0 74.35452795028687 GBytes
+Sat Nov 15 11:24:45 CET 2025

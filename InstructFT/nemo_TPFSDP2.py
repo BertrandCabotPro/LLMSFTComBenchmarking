@@ -57,111 +57,8 @@ from utils import (
 # Note: ensure that the --nproc-per-node and --devices values match.
 
 
-def get_chat_template(tokenizer):
-    # attempt to unwrap NeMo's tokenizer wrapper and check if wrapped tokenizer has chat_template
-    tmp_tokenizer = getattr(tokenizer, 'tokenizer', tokenizer)
-    has_chat_template = getattr(tmp_tokenizer, 'chat_template', None) is not None
-    if has_chat_template:
-        return tmp_tokenizer, getattr(tmp_tokenizer, 'eos_token_id', None), has_chat_template
-    else:
-        return tokenizer, getattr(tokenizer, 'eos_id', None), has_chat_template
-
-
-@FirstRankPerNode()
-def make_squad_hf_dataset(
-    tokenizer,
-    micro_batch_size,
-    seq_length=None,
-    packed_sequence_size=None,
-    limit_dataset_samples=None,
-    start_of_turn_token=None,
-    fp8=False,
-):
-    tokenizer, eos_token_id, has_chat_template = get_chat_template(tokenizer)
-
-    def pad_to_seq_length(sample):
-        seq_pad_len_ar = max(0, seq_length - len(next(iter(sample.values()))))
-        return {k: v + [eos_token_id if k != 'loss_mask' else 0] * seq_pad_len_ar for k, v in sample.items()}
-
-    def formatting_prompts_func(example):
-        formatted_text = [
-            f"{example['context']} {example['question']} ",
-            example['answers']['text'][0].strip(),
-        ]
-        context_ids, answer_ids = list(map(tokenizer.text_to_ids, formatted_text))
-        bos_id = getattr(tokenizer, 'bos_id', None)
-        eos_id = getattr(tokenizer, 'eos_id', None)
-        if len(context_ids) > 0 and bos_id is not None and context_ids[0] != bos_id:
-            context_ids.insert(0, bos_id)
-        if len(answer_ids) > 0 and eos_id is not None and answer_ids[-1] != eos_id:
-            answer_ids.append(eos_id)
-
-        input_ids = context_ids + answer_ids
-        return dict(
-            input_ids=input_ids,
-            labels=input_ids[1:] + [eos_token_id or input_ids[-1]],
-            loss_mask=[0] * len(context_ids) + [1] * len(answer_ids),
-        )
-
-    def formatting_prompts_func_with_chat_template(example, start_of_turn_token=None):
-        formatted_text = [
-            {'role': 'user', 'content': f"{example['context']} {example['question']}"},
-            {'role': 'assistant', 'content': example['answers']['text'][0].strip()},
-        ]
-        input_ids = tokenizer.apply_chat_template(formatted_text)
-        if isinstance(start_of_turn_token, str):
-            start_of_turn_token_id = tokenizer(start_of_turn_token, add_special_tokens=False)['input_ids'][0]
-            first_start_of_turn_token_id = input_ids.index(start_of_turn_token_id)
-            response_start = input_ids.index(start_of_turn_token_id, first_start_of_turn_token_id + 1) + 1
-        else:
-            response_start = 0
-        loss_mask = [0] * response_start + [1] * (len(input_ids) - response_start)
-        return dict(
-            input_ids=input_ids,
-            labels=input_ids[1:] + [getattr(tokenizer, 'eos_token_id', None) or input_ids[-1]],
-            loss_mask=loss_mask,
-        )
-
-    splits = ['train', 'validation']
-    if limit_dataset_samples is not None:
-        assert isinstance(limit_dataset_samples, int), "Expected limit_dataset_samples to be an int"
-        splits = list(map(lambda x: f'{x}[:{limit_dataset_samples}]', splits))
-
-    if isinstance(packed_sequence_size, int) and packed_sequence_size > 0:
-        # If packed_sequence_size > 0 instantiate HFDatasetDataModulePacked class
-        datamodule = llm.HFDatasetDataModulePacked(
-            "rajpurkar/squad",
-            packed_sequence_size=packed_sequence_size,
-            split=splits,
-            micro_batch_size=micro_batch_size,
-            pad_token_id=tokenizer.eos_id if tokenizer.eos_id is not None else 0,
-            pad_seq_len_divisible=16 if fp8 else None,  # FP8 training requires seq length to be divisible by 16.
-        )
-    else:
-        datamodule = llm.HFDatasetDataModule(
-            "rajpurkar/squad",
-            split=splits,
-            micro_batch_size=micro_batch_size,
-            pad_token_id=getattr(tokenizer, 'eos_id', 0) or 0,
-            pad_seq_len_divisible=16 if fp8 else None,  # FP8 training requires seq length to be divisible by 16.
-        )
-
-    fmt_fn = formatting_prompts_func
-    if has_chat_template:
-        fmt_fn = lambda x: formatting_prompts_func_with_chat_template(x, start_of_turn_token)
-    if isinstance(seq_length, int):
-        fmt_fn_ = fmt_fn
-        fmt_fn = lambda x: pad_to_seq_length(fmt_fn_(x))
-
-    datamodule.map(
-        fmt_fn,
-        batched=False,
-        remove_columns=["id", "title", "context", "question", 'answers'],
-    )
-    return datamodule
-
-
 def make_strategy(
+    rank,
     strategy,
     model,
     devices,
@@ -184,6 +81,7 @@ def make_strategy(
             checkpoint_io=model.make_checkpoint_io(adapter_only=adapter_only),
             find_unused_parameters=True,
         )
+        if rank == 0: print(f"Using DDP with DP={dp_size}, TP={tp_size}, CP={cp_size}")
     elif strategy == 'fsdp2':
 
         offload_policy = None
@@ -196,7 +94,7 @@ def make_strategy(
         assert (
             dp_size * tp_size * cp_size == devices * num_nodes
         ), "Data Parallel size * Tensor Parallel size * Context Parallel size must equal to devices * num_nodes"
-        print(f"Using FSDP2 with DP={dp_size}, TP={tp_size}, CP={cp_size}")
+        if rank == 0: print(f"Using FSDP2 with DP={dp_size}, TP={tp_size}, CP={cp_size}")
 
         return nl.FSDP2Strategy(
             data_parallel_size=dp_size,
@@ -255,7 +153,7 @@ def main():
     )
     parser.add_argument('--use-hf-tp-plan', action='store_true', help='Use huggingface TP plan; to be used with TP')
     parser.add_argument('--use-te-optimizer', action='store_true', help='Use TE optimizer')
-    parser.add_argument('--grad-clip', type=float, default=1.0, help='Grad clip value')
+    parser.add_argument('--grad-clip', type=float, default=None, help='Grad clip value')
     parser.add_argument(
         '--accumulate-grad-batches',
         '--accumulate_grad_batches',
@@ -338,6 +236,9 @@ def main():
     # --- fix DP auto + checks ---
     world = args.devices * args.num_nodes
     denom = args.tp_size * args.cp_size
+
+    RANK = os.environ['SLURM_PROCID']
+    
     if denom <= 0:
         raise ValueError("tp_size and cp_size must be >=1")
     
@@ -368,7 +269,10 @@ def main():
         print(f"Error calculating gradient accumulation steps: {e}")
         print("Using default value of 1 for accumulate_grad_batches")
         args.accumulate_grad_batches = 1
-    print(f"Accumulate grad batches: {args.accumulate_grad_batches}")
+
+    if RANK == 0: print(
+    f"world size: {world}, GBS: {args.global_batch_size}, BSperDev: {args.batch_size}, grad accumulation:{args.grad_acc}, sequence length: {args.seq_length}, grad_check: {args.enable_grad_ckpt},  chunked CE: {args.chunked_cross_entropy}"
+    )
 
     wandb = None
     if args.wandb_project is not None:
@@ -385,7 +289,7 @@ def main():
         jit_config = JitConfig(use_torch=True, torch_kwargs={'dynamic': False}, use_thunder=False)
         callbacks = [JitTransform(jit_config)]
 
-    #callbacks.append(MyChronoCallback(rank?, args.accumulate_grad_batches))
+    callbacks.append(MyChronoCallback(RANK, args.accumulate_grad_batches))
 
     if args.use_te_optimizer:
         # Use TE optimizer
@@ -416,8 +320,6 @@ def main():
         tokenizer = AutoTokenizer.from_pretrained(str(local_path), padding_side="left")
     except Exception:
         tokenizer = AutoTokenizer.from_pretrained(args.model, padding_side="left")
-
-    tokenizer.padding_side = "left"
     
     def wrap_tuple_to_dict(old_collate_fn):
         def new_collate_fn(batch):
@@ -427,7 +329,7 @@ def main():
             raise TypeError(f"collate_fn returned {type(t)}, expected tuple of 3 elements")
         return new_collate_fn
     
-    collate_fn = wrap_tuple_to_dict(make_sft_collate(tokenizer, max_seq_length=args.seq_length + 1))
+    collate_fn = wrap_tuple_to_dict(make_sft_collate(tokenizer, max_seq_length=args.seq_length))
 
     hf_dataset = HFDatasetDataModule(
         train_dataset,
@@ -436,6 +338,7 @@ def main():
         num_workers=args.num_workers,
         seq_length=args.seq_length,
         micro_batch_size=args.batch_size,
+        global_batch_size=args.global_batch_size,
         pad_seq_len_divisible=16 if args.fp8 else None,
         # packed_sequence=False,      # à activer si tu veux packer
     )
@@ -460,6 +363,7 @@ def main():
     ), f"Total devices {args.devices * args.num_nodes} must equal Data Parallel size {args.dp_size} * Tensor Parallel size {args.tp_size} * Context Parallel size {args.cp_size}."
 
     strategy = make_strategy(
+        RANK,
         args.strategy,
         model,
         args.devices,
@@ -514,10 +418,11 @@ def main():
         ),
         peft=peft,
         optim=optimizer,
-        log=logger(args.ckpt_folder, args.max_steps // 2),
-        resume=resume,
+        #log=logger(args.ckpt_folder, args.max_steps // 2),
+        #resume=resume,
     )
 
 
 if __name__ == '__main__':
     main()
+

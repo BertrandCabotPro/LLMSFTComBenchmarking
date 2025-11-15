@@ -1,3 +1,0 @@
-[NeMo I 2025-11-10 14:13:49 nemo_logging:393] Getting Megatron tokenizer for pretrained model name: megatron-gpt-345m, custom vocab file: None, and merges file: None
-[NeMo I 2025-11-10 14:13:49 nemo_logging:393] Downloading from https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-vocab.json to /linkhome/idris/genidr/ssos040/.cache/torch/megatron/megatron-gpt-345m_vocab
-Mon Nov 10 14:13:55 CET 2025

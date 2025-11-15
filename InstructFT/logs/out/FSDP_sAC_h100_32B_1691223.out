@@ -1,0 +1,38 @@
+>>> Training on 32 processes
+world size: 32, GBS: 128, BSperDev: 2, sequence length: 4096, selective AC ratio: 3/4, grad accumulation:2
+number of parameters: 32763876352
+Pre-loop Model MaxMemory for GPU:0 4.8095502853393555 GBytes
+global batch size: 64 - mini batch size: 2
+DATALOADER 4 False True True 3 False 
+Optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    decoupled_weight_decay: True
+    differentiable: False
+    eps: 1e-05
+    foreach: None
+    fused: None
+    lr: 1e-05
+    maximize: False
+    weight_decay: 0.1
+)
+Step 10 / 100 | Loss: 0.810 | Perplexity: 155810119680.000 | LR: 6.135e-08 | Wall: 90.16689133644104
+Step 20 / 100 | Loss: 0.812 | Perplexity: 157461364736.000 | LR: 1.295e-07 | Wall: 95.77434635162354
+Step 30 / 100 | Loss: 0.812 | Perplexity: 160334725120.000 | LR: 1.977e-07 | Wall: 96.49187064170837
+Step 40 / 100 | Loss: 0.780 | Perplexity: 146935103488.000 | LR: 2.658e-07 | Wall: 97.77307605743408
+Step 50 / 100 | Loss: 0.804 | Perplexity: 145311367168.000 | LR: 3.340e-07 | Wall: 96.0546989440918
+Step 60 / 100 | Loss: 0.796 | Perplexity: 142833860608.000 | LR: 4.022e-07 | Wall: 96.38927602767944
+Step 70 / 100 | Loss: 0.813 | Perplexity: 144224272384.000 | LR: 4.703e-07 | Wall: 96.30301928520203
+Step 80 / 100 | Loss: 0.813 | Perplexity: 141159825408.000 | LR: 5.385e-07 | Wall: 97.20640921592712
+Step 90 / 100 | Loss: 0.801 | Perplexity: 138575904768.000 | LR: 6.067e-07 | Wall: 96.52960968017578
+Step 100 / 100 | Loss: 0.798 | Perplexity: 137680420864.000 | LR: 6.748e-07 | Wall: 96.568434715271
+>>> Training complete in: 0:16:08.817683
+>>> Training performance time: min 3.80723237991333 avg 4.818102930059385 seconds (+/- 0.5269501115792692)
+>>> Loading performance time: min 0.00016689300537109375 avg 0.0012965657603201555 seconds (+/- 0.0010888507554918905)
+>>> ########## BENCHMARKING #####################################
+(Measured on 100 steps) Step time Avg : 9.63620586011877 s
+Estimated Training Time (2 epochs bs 128) : 39.28359922308418 h
+MaxMemory for GPU:0 57.842984676361084 GBytes
+Sat Nov 15 13:36:49 CET 2025

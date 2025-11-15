@@ -25,7 +25,7 @@ class MyChronoCallback(pl.Callback):
 
 
     def on_train_start(self, trainer: "pl.Trainer", pl_module: "pl.LightningModule") -> None:
-        print(f'Pre-loop Model MaxMemory for GPU:{self.rank} {torch.cuda.max_memory_allocated()} Bytes')        
+        if self.rank == 0: print(f'Pre-loop Model MaxMemory for GPU:{self.rank} {torch.cuda.max_memory_allocated()/2**30} GBytes')      
         self.chronometer.start()
         self.chronometer.dataload()
 
@@ -52,5 +52,5 @@ class MyChronoCallback(pl.Callback):
 
     def on_train_end(self, trainer: "pl.Trainer", pl_module: "pl.LightningModule") -> None:
         self.chronometer.display()
-        print(f'MaxMemory for GPU:{self.rank} {torch.cuda.max_memory_allocated()} Bytes')
+        if self.rank == 0: print(f'MaxMemory for GPU:{self.rank} {torch.cuda.max_memory_allocated()/2**30} GBytes')
         
